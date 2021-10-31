@@ -1,0 +1,34 @@
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+dl {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+a {
+    margin-left: 130px;
+}
+
+.img {
+    background: url(Images/header.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50vh;
+}
+
+div {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
