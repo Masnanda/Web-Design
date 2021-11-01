@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WebDesignQuiz</title>
+</head>
+
+<body>
+    <h1>BuRHger King</h1>
+    <nav class="ContainerMenu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="comingsoon.html">Coming Soon</a></li>
+            <li><a href="about.html">About us</a></li>
+        </ul>
+
+    </nav>
+    <div class="Container-Data">
+        <form>
+            <p>Nama</p>
+            <div class="Container-Input">
+                <input type="text" id="name" placeholder="Full Name">
+            </div>
+            <p>Email</p>
+            <div class="Container-Input">
+                <input type="text" id="Email" placeholder="Email">
+            </div>
+            <p>Selected Burger</p>
+            <select name="Burger" id="Burger" class="Container-Input">
+                <option value="Beef Burger">Beef Burger</option>
+                <option value="Burger BBQ">Burger BBQ</option>
+                <option value="Garden Burger">Garden Burger</option>
+              </select>
+            <div class="Container-Input">
+                <p for="Quantity">Quantity</p>
+                <input type="number" id="Quantity" placeholder="1" min="1" max="99">
+            </div>
+            <p>Address</p>
+            <div class="Container-Input">
+                <input type="text" id="Address" placeholder="Address">
+            </div>
+            <div class="Container-Input">
+                <input type="checkbox" id="agreement">
+                <label for="agreement"> I have read 
+                the terms and condition
+                </label>
+            </div>
+            <input class="Container-Input"> <br/>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
